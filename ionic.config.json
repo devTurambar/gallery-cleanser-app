@@ -1,0 +1,7 @@
+{
+  "name": "gallery-cleanser",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
