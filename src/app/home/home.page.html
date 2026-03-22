@@ -1,0 +1,57 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Gallery Cleanser</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="home-page">
+  <div class="hero">
+    <p class="eyebrow">Privacy-first cleanup</p>
+    <h1>Find duplicates, spam images, and clutter before they fill the device.</h1>
+    <p class="intro">
+      Start with a clean baseline UI. Native media scanning and AI review can plug into this flow next.
+    </p>
+    <ion-button size="large">
+      <ion-icon slot="start" name="scan-outline"></ion-icon>
+      Start scan
+    </ion-button>
+  </div>
+
+  <div class="feature-grid">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>
+          <ion-icon name="images-outline"></ion-icon>
+          Review media
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Group duplicates, gifs, screenshots, and low-value media into one review queue.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>
+          <ion-icon name="shield-checkmark-outline"></ion-icon>
+          Quarantine first
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Keep deletion reversible with a restore window before anything is permanently removed.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>
+          <ion-icon name="trash-bin-outline"></ion-icon>
+          Delete with intent
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Use this screen as the starting point for the real cleanup flow instead of the Ionic starter tabs.
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

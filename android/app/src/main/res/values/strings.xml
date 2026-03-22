@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Gallery Cleaner</string>
+    <string name="title_activity_main">Gallery Cleaner</string>
+    <string name="package_name">com.raphael.gallerycleanser</string>
+    <string name="custom_url_scheme">com.raphael.gallerycleanser</string>
+</resources>

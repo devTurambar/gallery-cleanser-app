@@ -1,0 +1,60 @@
+.home-page {
+  --background: linear-gradient(180deg, #f6f1e8 0%, #ffffff 38%, #eef7f4 100%);
+}
+
+.hero {
+  padding: 2rem 1.25rem 1rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.75rem;
+  color: #6f7e73;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  max-width: 12ch;
+  color: #17231c;
+  font-size: clamp(2.4rem, 6vw, 4.5rem);
+  font-weight: 800;
+  line-height: 0.95;
+}
+
+.intro {
+  max-width: 36rem;
+  margin: 1rem 0 1.5rem;
+  color: #405047;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  padding: 0 1.25rem 2rem;
+}
+
+ion-card {
+  margin: 0;
+  border: 1px solid rgba(23, 35, 28, 0.08);
+  border-radius: 20px;
+  box-shadow: none;
+}
+
+ion-card-title {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: #17231c;
+  font-size: 1.1rem;
+}
+
+ion-card-content {
+  color: #4f5e55;
+  line-height: 1.5;
+}
